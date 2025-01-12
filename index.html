@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product_launch_landing_page_for_new_mobile_app</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
@@ -15,15 +14,15 @@
 </head>
 
 <body>
-    <!-- prompt-32 -->
+    <!-- prompt-33 -->
 
     <!-- open main div -->
-    <div class="main w-full h-full h-min bg-[#E5E9EC]">
+    <div class="main w-full h-full h-min bg-[#CCD1D4]">
 
         <!-- open nav section -->
         <div class="nav  w-full flex justify-between  items-center px-6 py-4 lg:px-12">
             <h1 class="text-xl font-medium">Logo</h1>
-            <div class="links flex gap-10 items-center">
+            <div class="links hidden md:inline  md:flex md:gap-10 md:items-center">
                 <a class="font-medium">Home</a>
                 <a class="font-medium">About</a>
                 <a class="font-medium">Products</a>
@@ -31,27 +30,28 @@
                 <a class="font-medium">Sign In</a>
                 <button class="font-medium py-1 px-4 bg-black/80 text-white rounded-full">Sign Up</button>
             </div>
+            <i class="md:hidden text-xl ri-menu-line"></i>
         </div>
         <!-- close nav section -->
         
         <!-- open content section -->
         <div class="content w-full  flex flex-col justify-center gap-2 items-center my-4">
-            <h3 class="text-lg font-medium ">"Redefining convenience, efficiency, and connection – all in one app!"</h3>
-            <h1 class="text-4xl font-semibold text-center">Experience the Future <br> in Your Pocket – Introducing <span >Shopink</span></h1>
-            <p class="w-1/2 text-base font-normal text-center">Discover a smarter way to manage tasks, stay connected, and unlock possibilities with Shopink. Designed with cutting-edge technology, it offers a seamless, user-friendly experience right in your pocket—empowering you to work, socialize, and organize effortlessly.</p>
+            <h3 class="text-lg font-medium text-center">"Redefining convenience, efficiency, and connection – all in one app!"</h3>
+            <h1 class="text-2xl font-medium lg:text-4xl lg:font-semibold text-center">Experience the Future <br> in Your Pocket – Introducing <span >Shopink</span></h1>
+            <p class="w-full lg:w-1/2 text-base font-normal text-center">Discover a smarter way to manage tasks, stay connected, and unlock possibilities with Shopink. Designed with cutting-edge technology, it offers a seamless, user-friendly experience right in your pocket—empowering you to work, socialize, and organize effortlessly.</p>
         </div>
         <!-- close content section -->
 
         <!-- open hero-section -->
-        <div class="hero-section w-full h-fit h-[80%] flex justify-center gap-10 items-center my-10">
+        <div class="hero-section w-full  flex justify-center gap-10 items-center my-10 px-12 md-px-0 lg-px-0">
 
             <!-- open box section -->
-            <div class="box w-[70%]  bg-red-400 flex justify-center gap-10 items-center">
+            <div class="box w-full lg:w-[70%]  flex flex-col lg:flex-row justify-center gap-10 ">
                
                 <!-- open image section-->
-                 <div class="w-[30%] p-4 bg-pink-500 hover:p-0 transition duration-300 ease-linear"><img src="images/app_img1.png" alt=""></div>
-                 <div class="w-[33%] p-4 bg-pink-500 hover:p-0 transition duration-300 ease-linear"><img src="images/app_img2.png" alt=""></div>
-                 <div class="w-[30%] p-4 bg-pink-500 hover:p-0 transition duration-300 ease-linear"><img src="images/app_img3.png" alt=""></div>
+                 <div class="w-full lg:w-[30%] p-4  hover:p-0 transition duration-300 ease-linear"><img src="images/app_img1.png" alt=""></div>
+                 <div class="w-full lg:w-[33%] p-4  hover:p-0 transition duration-300 ease-linear"><img src="images/app_img2.png" alt=""></div>
+                 <div class="w-full lg:w-[30%] p-4  hover:p-0 transition duration-300 ease-linear"><img src="images/app_img3.png" alt=""></div>
             </div>
              <!-- close box section -->
             
@@ -61,8 +61,8 @@
         <!-- open footer section -->
         <div class="content w-full  flex flex-col justify-center gap-2 items-center py-10">
             
-            <h1 class="text-3xl font-semibold text-center">Download our mobile app</h1>
-            <div class="flex">
+            <h1 class="text-xl font-medium lg:text-3xl lg:font-semibold text-center">Download our mobile app</h1>
+            <div class="flex flex-col lg:flex-row">
                 <img  src="images/ios-app@2x_resize_1x.webp" alt="">
                 <img  src="images/google-play@2x_resize_1x.webp" alt="">
             </div>
