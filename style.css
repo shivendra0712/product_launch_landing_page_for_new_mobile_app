@@ -1,0 +1,25 @@
+/* add boiler plat of css file */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* add different type font family */
+h3{
+    font-family: Josefin Sans;
+}
+
+p{
+    font-family:Inter;
+}
+
+h1{
+    font-family:Parkinsans;
+}
